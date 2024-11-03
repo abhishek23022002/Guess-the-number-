@@ -60,6 +60,9 @@
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 10px;           /* Set a height to help vertical centering */
 }
 input{
   padding: 10px;
@@ -74,4 +77,11 @@ input:hover{
 input:focus{
   background-color: rgb(148, 136, 136);
   border: black;
+}
+
+.hello {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 100px;           /* Set a height to help vertical centering */
 }
